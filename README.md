@@ -1,2 +1,2 @@
-# clone-tabnews
-Clone do tabnews para estudo do curso.dev
+# Review of movies and series
+Website to evaluate series and films
