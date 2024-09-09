@@ -1,2 +1,2 @@
-# Review of movies and series
-Website to evaluate series and films scs
+# Clone TabNews
+clone of tabnews developer forum
