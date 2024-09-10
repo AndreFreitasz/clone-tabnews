@@ -51,7 +51,7 @@ function Home() {
                     Clique aqui caso vc queira uma surpresa 
                 </button>
 
-                {text && <p>te amo my love</p>}
+                {text && <p>te amo my love, se você me ama, da uma risadinha kkkkkkkkkkkkkkkkkkkkk</p>}
             </div>
         </>
     )
