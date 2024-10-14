@@ -7,7 +7,7 @@ async function query(queryObject) {
     user: process.env.POSTGRES_USER,
     database: process.env.POSTGRES_DB,
     password: process.env.POSTGRES_PASSWORD,
-    ssl: getSSQLValues(),
+    ssl: getSSLValues(),
   });
 
   try {
@@ -26,7 +26,7 @@ export default {
   query: query,
 };
 
-function getSSQLValues() {
+function getSSLValues() {
   if (process.env.POSTGRES_CA) {
     return {
       ca: process.env.POSTGRES_CA,
