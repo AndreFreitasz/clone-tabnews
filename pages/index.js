@@ -37,6 +37,7 @@ function Home() {
     backgroundColor: "#A9A9A9",
     cursor: "not-allowed",
   };
+  console.log("text", text);
 
   return (
     <>
