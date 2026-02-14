@@ -4,7 +4,7 @@
   "description": "Website to evaluate series and films scs",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run services:up && npm run services:wait:database && npm run migrations:up && next dev",
+    "dev": "npm run services:up && npm run services:wait:database && npm run migrations:up && concurrently -k -s first \"next dev\" \"docker compose -f infra/compose.yaml up\"",
     "lint:prettier:check": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
     "lint:eslint:check": "next lint --dir .",
